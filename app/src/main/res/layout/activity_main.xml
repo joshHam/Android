@@ -76,7 +76,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/name_developer"
-        android:textColor="#ffff8888"
+        android:textColor="#ffaabbff"
         android:background="#88aabbff"
         android:textSize="22dp"
         android:textStyle="bold"

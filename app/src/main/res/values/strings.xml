@@ -1,0 +1,12 @@
+<resources>
+    <string name="name_developer" translatable="false">개발자 : 함혜중</string>
+
+    <string name="app_name">라디오그룹버튼앱</string>
+    <string name="sel">선택</string>
+    <string name="radio_sel1">남성</string>
+    <string name="radio_sel2">여성</string>
+    <string name="msg_change1">남성을 선택하였습니다.</string>
+    <string name="msg_change2">여성을 선택하였습니다.</string>
+    <string name="msg_button1">남성이 선택되어 있습니다.</string>
+    <string name="msg_button2">여성을 선택되어 있습니다.</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="name_developer" translatable="false">Developer : Haejung Ham</string>
+
+    <string name="app_name">RadioGroupButton</string>
+    <string name="sel">Select</string>
+    <string name="radio_sel1">Man</string>
+    <string name="radio_sel2">Woman</string>
+    <string name="msg_change1">You selected item \"Man\".</string>
+    <string name="msg_change2">You selected item \"Woman\".</string>
+    <string name="msg_button1">Item \"Man\" is selected.</string>
+    <string name="msg_button2">Item \"Woman\" is selected.</string>
+</resources>

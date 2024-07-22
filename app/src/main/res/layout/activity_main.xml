@@ -12,6 +12,9 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
+
+
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
@@ -35,6 +38,10 @@
         android:onClick="onButton3Clicked"
         android:text="Button3" />
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button
         android:id="@+id/button4"
         android:layout_width="wrap_content"
@@ -58,7 +65,12 @@
         android:layout_gravity="left"
         android:onClick="onButton6Clicked"
         android:text="FrameLayout" />
+    </LinearLayout>
 
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <Button
         android:id="@+id/button7"
         android:layout_width="wrap_content"
@@ -66,6 +78,141 @@
         android:layout_gravity="left"
         android:onClick="onButton7Clicked"
         android:text="RadioGroup" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton8Clicked"
+        android:text="EditTextt" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton9Clicked"
+        android:text="ImageVieww" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton10Clicked"
+        android:text="Intent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton11Clicked"
+        android:text="Clock" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton12Clicked"
+        android:text="Time-DatePicker" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton13Clicked"
+        android:text="LayoutInflation" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton14Clicked"
+        android:text="부가데이터" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton15Clicked"
+        android:text="수명주기" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton16Clicked"
+        android:text="수명주기2" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:onClick="onButton17Clicked"
+        android:text="터치이벤트" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="onButton18Clicked"
+            android:text="서비스" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="onButton19Clicked"
+            android:text="제스쳐이벤트" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="onButton20Clicked"
+            android:text="스낵바" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:onClick="onButton21Clicked"
+            android:text="토스트/대화상자" />
+
+    </LinearLayout>
 
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"

@@ -63,4 +63,72 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onButton8Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), EditTexts.class);
+        startActivity(intent);
+    }
+
+    public void onButton9Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), ImageVieww.class);
+        startActivity(intent);
+    }
+
+    public void onButton10Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), Intent_main.class);
+        startActivity(intent);
+    }
+
+    public void onButton11Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), Clockk.class);
+        startActivity(intent);
+    }
+
+    public void onButton12Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), Pickerr.class);
+        startActivity(intent);
+    }
+
+    public void onButton13Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), LayoutInflationn.class);
+        startActivity(intent);
+    }
+    public void onButton14Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), SimpleDataa_Main.class);
+        startActivity(intent);
+    }
+    public void onButton15Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), LifeCycle.class);
+        startActivity(intent);
+    }
+
+    public void onButton16Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), LifeCycle2.class);
+        startActivity(intent);
+    }
+    public void onButton17Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), TouchEvent.class);
+        startActivity(intent);
+    }
+
+    public void onButton18Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), ServiceMain.class);
+        startActivity(intent);
+    }
+
+    public void onButton19Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), GestureEvent.class);
+        startActivity(intent);
+    }
+
+    public void onButton20Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), Snackbarr.class);
+        startActivity(intent);
+    }
+
+    public void onButton21Clicked(View view) {
+        Intent intent = new Intent(getApplicationContext(), AlertDialogg.class);
+        startActivity(intent);
+    }
+
+
 }
